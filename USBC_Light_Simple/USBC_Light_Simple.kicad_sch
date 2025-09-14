@@ -1,0 +1,250 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "df06901f-4c94-45fd-9b10-d1e99011d9f7")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 128.27 59.69) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc6f416-ee10-4434-b8e2-9093f2c5cfea")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 124.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e9536e-de77-4c3b-b4e7-c854bbaec81c")
+	)
+	(wire
+		(pts
+			(xy 121.92 52.07) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fc5efc-b544-440c-a7ae-139cbef75792")
+	)
+	(wire
+		(pts
+			(xy 124.46 62.23) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44ff12d-584e-4f06-982c-9a5cc4f88058")
+	)
+	(wire
+		(pts
+			(xy 128.27 105.41) (xy 128.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f022762d-9a57-4fb9-891d-0554a8cbbb6d")
+	)
+	(sheet
+		(at 73.66 42.672)
+		(size 48.26 46.736)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a8e9fa9-bdc7-4e76-ae1e-541b968b9dcd")
+		(property "Sheetname" "USB_C_IC"
+			(at 73.66 41.9604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C_IC.kicad_sch"
+			(at 73.66 89.9926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AP33772_VOUT" input
+			(at 121.92 52.07 0)
+			(uuid "2437e9d4-0754-4165-bd3e-5fd971427600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_IC_SCL" input
+			(at 121.92 59.69 0)
+			(uuid "09ece97b-e79c-4b6e-a0e2-5285739739e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_IC_SDA" input
+			(at 121.92 62.23 0)
+			(uuid "9660196a-4a01-4385-a94f-df076a4c0bef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "USBC_Light_Simple"
+				(path "/df06901f-4c94-45fd-9b10-d1e99011d9f7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.854 105.41)
+		(size 53.848 26.416)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56ee7f03-263b-49ea-8bad-dbbcc86dabc8")
+		(property "Sheetname" "MCU"
+			(at 101.854 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 101.854 132.4106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 128.27 105.41 90)
+			(uuid "db597e20-b23d-4dae-bfe6-61ccfe2b65e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 124.46 105.41 90)
+			(uuid "cc1763fc-f617-462e-b4d4-c052050d5ff4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "USBC_Light_Simple"
+				(path "/df06901f-4c94-45fd-9b10-d1e99011d9f7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 39.624)
+		(size 41.148 48.768)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97ed1d27-543b-4ffe-a82a-b5ff7e3d7e72")
+		(property "Sheetname" "LEDs"
+			(at 148.59 38.9124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 148.59 88.9766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_Input_Voltage" input
+			(at 148.59 52.07 180)
+			(uuid "3f47aee8-536f-4b2c-a7d7-afdfb6767bae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USBC_Light_Simple"
+				(path "/df06901f-4c94-45fd-9b10-d1e99011d9f7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
