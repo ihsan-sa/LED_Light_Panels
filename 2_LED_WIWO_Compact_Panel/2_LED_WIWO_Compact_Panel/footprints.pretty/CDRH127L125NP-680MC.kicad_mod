@@ -1,0 +1,108 @@
+(footprint "CDRH127L125NP-680MC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84fc68bb-8274-4bdf-a387-376689b1e9d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CDRH127L125NP-680MC"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09fcd208-c3fc-4ceb-afd7-9762f352dd0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4465b0ae-8886-4dd1-8569-5c588f80e39b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e56f79-5b43-43c4-99aa-2ef19205d9cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6 -6)
+		(end 6 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "00292512-2db3-4b59-93aa-bbb82848a268")
+	)
+	(fp_rect
+		(start -6.6 -6.3)
+		(end 6.6 6.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "d9cab8e2-2f22-4111-b951-476f1bf3924b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cca3ab22-26ca-4dfa-a0e8-4ce9fa6cb1c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.95 0 90)
+		(size 5.4 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c44e7f82-e3a1-4e7d-b99c-208b322a5bdc")
+	)
+	(pad "2" smd roundrect
+		(at 4.95 0 90)
+		(size 5.4 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "dbf0404a-7bfa-4a98-8353-a76fa2b2edd3")
+	)
+	(embedded_fonts no)
+)
