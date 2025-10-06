@@ -417,7 +417,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x03"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -433,7 +433,252 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x03"
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -459,7 +704,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -486,9 +731,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x03_1_1"
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 1.27)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -496,18 +741,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -525,18 +758,6 @@
 				(polyline
 					(pts
 						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -571,17 +792,6 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 0 0)
 					(radius 0.635)
 					(stroke
@@ -604,7 +814,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -622,7 +832,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -632,24 +842,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2710,6 +2902,96 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library1:small_heatsink"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "E"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "small_heatsink_0_1"
+				(rectangle
+					(start 0 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "small_heatsink_1_1"
+				(text "Small\nHeatsink\n"
+					(at 1.524 -3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MP24833-AGN-Z:MP24833-AGN-Z"
 			(pin_names
 				(offset 0.254)
@@ -2992,6 +3274,113 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4457,12 +4846,6 @@
 		(uuid "8bab0111-ba56-46b3-b235-69dda2ea8c40")
 	)
 	(junction
-		(at 40.64 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f470837-fb61-465d-8113-ce9bb557bc02")
-	)
-	(junction
 		(at 173.99 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4667,16 +5050,6 @@
 			(type default)
 		)
 		(uuid "0438396d-1011-4c2a-b967-79a8ee441777")
-	)
-	(wire
-		(pts
-			(xy 38.1 67.31) (xy 40.64 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0475d8d2-346f-474c-8e26-321a445ba02c")
 	)
 	(wire
 		(pts
@@ -4897,6 +5270,16 @@
 			(type default)
 		)
 		(uuid "133c2297-1104-4506-a7ad-523504bcfc55")
+	)
+	(wire
+		(pts
+			(xy 45.72 90.17) (xy 45.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138fdff8-e285-4c95-98bc-8f7b77736c2a")
 	)
 	(wire
 		(pts
@@ -5450,6 +5833,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 63.5) (xy 40.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c161a8-dbf9-435d-9218-7a935c821efb")
+	)
+	(wire
+		(pts
 			(xy 19.05 31.75) (xy 19.05 34.29)
 		)
 		(stroke
@@ -5517,16 +5910,6 @@
 			(type default)
 		)
 		(uuid "4d431405-66c3-4b27-b890-17a2b2a76865")
-	)
-	(wire
-		(pts
-			(xy 40.64 60.96) (xy 40.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec5f5ba-9a03-4eb9-ac54-8d484a13b52e")
 	)
 	(wire
 		(pts
@@ -5820,16 +6203,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 62.23) (xy 40.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba69a2d-9fb3-4cd1-8e73-4e78aab1078c")
-	)
-	(wire
-		(pts
 			(xy 135.89 177.8) (xy 146.05 177.8)
 		)
 		(stroke
@@ -5927,16 +6300,6 @@
 			(type default)
 		)
 		(uuid "73343158-d465-4748-bc05-f4b6d5c28e1f")
-	)
-	(wire
-		(pts
-			(xy 111.76 156.21) (xy 101.6 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7445f8dd-af25-4710-a5bf-fc2739f98749")
 	)
 	(wire
 		(pts
@@ -6047,6 +6410,16 @@
 			(type default)
 		)
 		(uuid "7d9e62d4-1e29-45b9-913b-3d9eb5febdeb")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebf85d0-ea56-4cfb-8f53-b695bb6c7750")
 	)
 	(wire
 		(pts
@@ -6290,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 40.64 64.77)
+			(xy 38.1 63.5) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6760,6 +7133,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 186.69) (xy 165.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d8965-2001-4cfe-9d7d-ff0dd8a34bff")
+	)
+	(wire
+		(pts
 			(xy 259.08 113.03) (xy 259.08 111.76)
 		)
 		(stroke
@@ -6890,7 +7273,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 135.89) (xy 175.26 138.43)
+			(xy 175.26 135.89) (xy 175.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6957,6 +7340,26 @@
 			(type default)
 		)
 		(uuid "c4b0152c-8e6b-422b-93ff-5549494e24cb")
+	)
+	(wire
+		(pts
+			(xy 101.6 156.21) (xy 111.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60796a1-3707-4041-b538-b6710e6bbc48")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 40.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c688b710-b968-4892-abf2-3498a258f559")
 	)
 	(wire
 		(pts
@@ -7030,7 +7433,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 67.31) (xy 40.64 71.12)
+			(xy 38.1 68.58) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7270,6 +7673,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 171.45) (xy 257.81 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a0a3b5-4770-40f6-8ea6-7d8b80fcb828")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80d429f-6d4b-4158-abcc-d46683d14413")
+	)
+	(wire
+		(pts
 			(xy 39.37 129.54) (xy 44.45 129.54)
 		)
 		(stroke
@@ -7290,6 +7713,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 163.83) (xy 166.37 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebece9ac-b7b3-4359-b5eb-f2227197b324")
+	)
+	(wire
+		(pts
 			(xy 173.99 93.98) (xy 173.99 97.79)
 		)
 		(stroke
@@ -7307,6 +7740,16 @@
 			(type default)
 		)
 		(uuid "ec53af78-d9d7-4fbb-a954-dc8c8ea70bb1")
+	)
+	(wire
+		(pts
+			(xy 209.55 153.67) (xy 209.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6ceff8-93cb-453d-9070-20820df06ee0")
 	)
 	(wire
 		(pts
@@ -7558,16 +8001,6 @@
 		)
 		(uuid "feb0bcbe-aa73-4f0e-9a4f-d0470b319e5b")
 	)
-	(wire
-		(pts
-			(xy 40.64 64.77) (xy 38.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffba9f6-3133-449e-a34e-43a42bed1d32")
-	)
 	(label "BST_1"
 		(at 223.52 43.18 0)
 		(effects
@@ -7597,6 +8030,16 @@
 			(justify left bottom)
 		)
 		(uuid "0b5a4e52-43f8-4ab2-bafc-76294cd42ea1")
+	)
+	(label "FAN_DIS"
+		(at 34.29 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d3d057f-2221-43a9-af0f-fe936ec3465a")
 	)
 	(label "FAN_PWM"
 		(at 73.66 124.46 0)
@@ -7658,7 +8101,7 @@
 		)
 		(uuid "43bd8a6a-8ae7-44f7-b1fc-c8da5138aef8")
 	)
-	(label "TR_THR"
+	(label "LED_TR_THR"
 		(at 72.39 179.07 0)
 		(effects
 			(font
@@ -7667,6 +8110,16 @@
 			(justify left bottom)
 		)
 		(uuid "43ce5d1e-f75b-468a-b22b-475569e3ab80")
+	)
+	(label "LED_EPAD"
+		(at 247.65 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44826041-24d1-489b-a487-cb5f3d3e9bd9")
 	)
 	(label "FAN_CTRL"
 		(at 40.64 100.33 180)
@@ -7678,8 +8131,8 @@
 		)
 		(uuid "4a37d4b9-fa47-4f7b-bdc6-495247c4e308")
 	)
-	(label "DIS"
-		(at 86.36 129.54 0)
+	(label "FAN_DIS"
+		(at 82.55 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7698,28 +8151,8 @@
 		)
 		(uuid "5ccef926-b3b6-4b68-8c36-38c9c1b93abf")
 	)
-	(label "DIS"
-		(at 107.95 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68134e22-784d-4e33-b91d-844e601341d0")
-	)
-	(label "TR_THR"
-		(at 31.75 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6aca7bd4-bb93-488a-b202-947e05021b3c")
-	)
-	(label "DIS"
-		(at 105.41 156.21 0)
+	(label "LED_DIS"
+		(at 104.14 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7758,6 +8191,16 @@
 		)
 		(uuid "9b99f129-c070-40d8-8bbb-7b90fb631589")
 	)
+	(label "LED_DIS"
+		(at 77.47 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d4d459e-370c-4f04-ae32-b35dd6e3cc16")
+	)
 	(label "FAN_PWM"
 		(at 125.73 93.98 0)
 		(effects
@@ -7767,16 +8210,6 @@
 			(justify left bottom)
 		)
 		(uuid "9fe36e0f-9f0f-4f79-9fdb-8025ea742c96")
-	)
-	(label "DIS"
-		(at 83.82 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2a34cff-4bfe-4371-8b48-b44d1e140a78")
 	)
 	(label "BST_2"
 		(at 223.52 115.57 0)
@@ -7827,16 +8260,6 @@
 			(justify left bottom)
 		)
 		(uuid "b9c8f999-f99d-40cc-aadf-52c9c5bc07b9")
-	)
-	(label "TR_THR"
-		(at 34.29 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf469adf-fb82-4818-b969-87b82459f8d5")
 	)
 	(label "FAN_CTRL"
 		(at 100.33 86.36 180)
@@ -7908,6 +8331,16 @@
 		)
 		(uuid "e5beb577-8b37-42a5-a473-de3353630d77")
 	)
+	(label "FAN_DIS"
+		(at 105.41 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7ff7da9-e0da-45f0-9e78-59d711243f8f")
+	)
 	(label "VLED_2_p"
 		(at 273.05 143.51 0)
 		(effects
@@ -7928,7 +8361,7 @@
 		)
 		(uuid "f3edb5a1-e92c-4050-bdce-238aa7b0906d")
 	)
-	(label "TR_THR"
+	(label "FAN_TR_THR"
 		(at 74.93 134.62 0)
 		(effects
 			(font
@@ -7937,6 +8370,16 @@
 			(justify left bottom)
 		)
 		(uuid "f9f784fb-13d1-44c7-ab66-99a9fe4ed674")
+	)
+	(label "LED_TR_THR"
+		(at 30.48 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa61d024-74d4-4a11-8049-01d668c04bc2")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7957,7 +8400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "PGND_1"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -8408,72 +8851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08804aa4-0187-435a-89ce-9a504a6d2764")
-		(property "Reference" "#PWR0123"
-			(at 167.64 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 167.64 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c383dde-549c-4c8d-9097-9c76f75155b7")
-		)
-		(instances
-			(project "2_LED_WIWO_Compact_Panel"
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 19.05 31.75 0)
 		(unit 1)
@@ -8605,6 +8982,72 @@
 			(project ""
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b483179-8542-441c-949c-1773a24531e9")
+		(property "Reference" "#PWR0128"
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_2"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2620d88-8ea4-48c9-9a39-7a67cb7e83d0")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -8744,71 +9187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "154fabe2-9011-4563-9744-850f5f3a31c0")
-		(property "Reference" "#PWR0132"
-			(at 241.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 245.618 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c3ac418-6e84-4593-9cc6-6ebae1330a43")
-		)
-		(instances
-			(project ""
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CL-SB-13B-01T:CL-SB-13B-01T")
 		(at 128.27 177.8 0)
 		(unit 1)
@@ -8918,6 +9296,70 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library1:small_heatsink")
+		(at 262.89 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1656212c-0f4d-468e-80de-8b0c339c2f86")
+		(property "Reference" "E2"
+			(at 261.62 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 261.366 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "heatsinks:small_heatsink"
+			(at 262.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051f52a3-e0f4-496e-9ed1-2fd771593fb7")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "E2")
 					(unit 1)
 				)
 			)
@@ -9409,35 +9851,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 50.8 100.33 0)
+		(lib_id "power:GND")
+		(at 165.1 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b8d5980-fb8e-45ef-8095-fffb051d4670")
-		(property "Reference" "J3"
-			(at 53.34 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 53.34 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
-			(at 50.8 100.33 0)
+		(uuid "28559923-f55b-48f0-9e1e-d09868f8a8a9")
+		(property "Reference" "#PWR034"
+			(at 165.1 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,8 +9869,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.8 100.33 0)
+		(property "Value" "GND"
+			(at 165.1 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,8 +9886,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 100.33 0)
+		(property "Datasheet" ""
+			(at 165.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,18 +9905,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "668520d3-6be7-4837-869a-d53de5d2db9e")
-		)
-		(pin "2"
-			(uuid "3d111232-dda9-403b-8e49-3ac17004f1c7")
-		)
-		(pin "3"
-			(uuid "affa9718-999a-4749-ad1e-8ee85f98fc0e")
+			(uuid "26426ff4-da35-4ade-9e69-b50e536834d4")
 		)
 		(instances
-			(project ""
+			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "J3")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10470,72 +10905,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43558744-cbd3-4523-b0ec-65ade419d32e")
-		(property "Reference" "#PWR0130"
-			(at 228.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 228.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3136225d-6b82-4721-b130-adeaa36cb6c5")
-		)
-		(instances
-			(project "2_LED_WIWO_Compact_Panel"
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 40.64 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10595,6 +10964,82 @@
 			(project ""
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 50.8 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46082029-df17-4420-a915-7f622b86275f")
+		(property "Reference" "J2"
+			(at 52.07 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 52.07 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dac52f50-115a-4c5d-b23e-73447308470f")
+		)
+		(pin "1"
+			(uuid "59ba53f6-0c35-47c0-90b1-4f08f8c9972e")
+		)
+		(pin "4"
+			(uuid "986499b8-7b95-4c6c-9b0b-163cde4935a4")
+		)
+		(pin "2"
+			(uuid "9147e3dc-1c34-4291-9ed9-8bf1daaf3474")
+		)
+		(instances
+			(project ""
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10671,15 +11116,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 48.26 0)
+		(at 175.26 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ba40c32-521c-4bfa-8db7-2972daad322b")
-		(property "Reference" "#PWR0133"
-			(at 251.46 54.61 0)
+		(fields_autoplaced yes)
+		(uuid "4ac3bebf-29b2-4950-bf28-0335e18e2bb4")
+		(property "Reference" "#PWR0139"
+			(at 175.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10687,8 +11133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 252.222 53.34 0)
+		(property "Value" "PGND_1"
+			(at 175.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +11142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 48.26 0)
+			(at 175.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +11151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 48.26 0)
+			(at 175.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,7 +11160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 48.26 0)
+			(at 175.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,12 +11169,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b485352-7556-4e10-8c75-65f25ce3f02d")
+			(uuid "79df1fa4-0eef-4ddd-ba60-33f0f3ece972")
 		)
 		(instances
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0133")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -10865,6 +11311,72 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d5a3931-b051-4b0c-a4fe-5ebc66bb7468")
+		(property "Reference" "#PWR0132"
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_2"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0520881b-0661-4d4d-af4b-a74f613f31c6")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -11090,6 +11602,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Library1:small_heatsink")
+		(at 242.57 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "566ca6d3-60e4-4d63-b094-1ae4a5dd27b2")
+		(property "Reference" "E1"
+			(at 243.84 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 244.094 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "heatsinks:small_heatsink"
+			(at 242.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdce6483-4f85-4306-aa10-a2e7c5298642")
+		)
+		(instances
+			(project ""
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.18 105.41 0)
 		(unit 1)
@@ -11301,17 +11877,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 138.43 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 154.94 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60e96e25-3434-4633-9051-a3a3ce96ec64")
-		(property "Reference" "#PWR0125"
-			(at 175.26 144.78 0)
+		(uuid "60d7959c-508d-4028-9f12-80adfdda1a51")
+		(property "Reference" "H1"
+			(at 157.48 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,16 +11913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 175.26 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 138.43 0)
+		(property "Datasheet" "~"
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,17 +11922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 138.43 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,12 +11932,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0dd6fbe9-a5ab-4d8a-adc9-5d66f2fce4e3")
+			(uuid "3ab2e9d7-5c67-4fb1-929e-5f64da32d676")
 		)
 		(instances
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0125")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11506,17 +12083,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 50.8 0)
+		(lib_id "power:VCC")
+		(at 45.72 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62de36b9-1818-4454-9cee-dd9948648ccf")
-		(property "Reference" "#PWR0140"
-			(at 167.64 57.15 0)
+		(uuid "67a144ba-cf92-4bd0-b5a3-618561bf38cf")
+		(property "Reference" "#PWR0120"
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,8 +12101,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 167.64 55.88 0)
+		(property "Value" "VCC"
+			(at 45.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 50.8 0)
+			(at 45.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +12119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 50.8 0)
+			(at 45.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,8 +12127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 45.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,12 +12137,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "aeba2df7-24e8-46cf-a2cf-24c9aaf4c1a4")
+			(uuid "d10f5d03-efc5-41ff-8cf7-6251634cb78b")
 		)
 		(instances
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0140")
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "694113ae-4a00-4ab3-846b-135faed46c59")
+		(property "Reference" "#PWR0163"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_1"
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a753c6af-433e-4ae5-9356-21cd400fb9b8")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -12055,6 +12698,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 209.55 151.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc6d223-b652-40c4-83c8-cf020fc35833")
+		(property "Reference" "H4"
+			(at 212.09 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 212.09 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 209.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 209.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1838475-ac88-4fd4-bddf-9dba68a41090")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "741585c1-fac1-4677-b58b-cd5f760ed790")
+		(property "Reference" "H5"
+			(at 167.64 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 165.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06e77eb8-ac0c-4159-b495-8d6886c54db8")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 90.17 140.97 0)
 		(unit 1)
@@ -12116,6 +12893,74 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 33.02 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751e6012-5642-4661-beed-a761eea01f9d")
+		(property "Reference" "J1"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 33.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92aeb5a-7b67-47db-b557-c8d4eda36892")
+		)
+		(pin "2"
+			(uuid "fb27cad0-116c-4c16-8e41-b2a9e867fac3")
+		)
+		(instances
+			(project ""
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13031,6 +13876,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "960f152d-9ac8-4052-9fce-70569930201d")
+		(property "Reference" "#PWR021"
+			(at 166.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c4b364e-e7fd-496e-a3bf-3aed103a59ff")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 54.61 161.29 0)
 		(unit 1)
@@ -13253,32 +14164,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 33.02 64.77 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 161.29 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "9bae0eb2-dfb5-47c2-8dee-7cdaa61672ec")
-		(property "Reference" "J4"
-			(at 33.528 58.166 0)
+		(fields_autoplaced yes)
+		(uuid "9e062f35-6350-4a6d-bc8e-4e85746ce337")
+		(property "Reference" "H6"
+			(at 168.91 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 25.908 71.628 0)
+		(property "Value" "MountingHole_Pad"
+			(at 168.91 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
-			(at 33.02 64.77 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 166.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,7 +14201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 64.77 0)
+			(at 166.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,8 +14209,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 64.77 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,18 +14219,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "be56f803-9bab-4349-a10a-1fa271fded3a")
-		)
-		(pin "2"
-			(uuid "00b01a4b-4003-4a25-a00e-0ab69ebb4942")
-		)
-		(pin "3"
-			(uuid "bf059b87-beb0-4dc5-92ce-3418de2d40f3")
+			(uuid "f6051895-c48d-44b3-9815-573865039ae4")
 		)
 		(instances
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "J4")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -13569,7 +14477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "PGND_2"
 			(at 173.99 111.76 0)
 			(effects
 				(font
@@ -13747,6 +14655,72 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9d320f8-2b47-42cb-ad47-e9b6829295dc")
+		(property "Reference" "#PWR033"
+			(at 209.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b9bcca8-8d22-4cef-8a66-9548d44e9956")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13953,71 +14927,6 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b119f469-8ecf-4267-95f9-2c1395ce3e5b")
-		(property "Reference" "#PWR0127"
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 245.618 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ad7bf83-3577-4eee-8672-b80b19f5322b")
-		)
-		(instances
-			(project "2_LED_WIWO_Compact_Panel"
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -14941,6 +15850,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 228.6 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c51f54-a03e-4d4e-850b-44c9c9c32857")
+		(property "Reference" "#PWR0130"
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_2"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5959eb3d-9e0c-4645-9886-b30d29bf74ec")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25d8f04-498b-4813-97f2-0d1b50be2757")
+		(property "Reference" "#PWR0127"
+			(at 241.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_2"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f5a4599-47cd-47f7-81e9-eb317e83de27")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 92.71 121.92 0)
 		(unit 1)
@@ -15503,6 +16544,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 167.64 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d059bca3-0ab8-4811-93da-ff0bd6c6f513")
+		(property "Reference" "#PWR0140"
+			(at 167.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_1"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7297dbab-947e-4c3a-b008-c1a0c6bd9461")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 57.15 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15696,71 +16803,6 @@
 			(project ""
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d36bafd6-9ec8-49ee-9d98-1e71c0035cb6")
-		(property "Reference" "#PWR0128"
-			(at 251.46 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 252.222 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9749f08-30a7-417e-bbce-ee391213906f")
-		)
-		(instances
-			(project "2_LED_WIWO_Compact_Panel"
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -16265,72 +17307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9beb8fe-9816-41c1-a9f4-6db5c26707e1")
-		(property "Reference" "#PWR0139"
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96661334-927b-473f-be61-46b5fa4d2bf2")
-		)
-		(instances
-			(project ""
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 36.83 129.54 90)
 		(unit 1)
@@ -16667,6 +17643,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 251.46 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5caee68-f313-458e-a8ad-56ccd2b16e65")
+		(property "Reference" "#PWR0136"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_1"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5730ee7-7fbc-4d3f-8df6-d3327e744bd4")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 73.66 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16726,6 +17768,138 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9bb30ae-2200-4342-afab-8b16366a0f64")
+		(property "Reference" "#PWR0133"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_2"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "930b6d9f-2cd2-49ac-8ba2-a9a3069a176c")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebfd36f2-a734-4504-bf27-56db37b4d936")
+		(property "Reference" "#PWR0162"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND_1"
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02de3b7d-7c3d-47a6-90b9-a35b9a58f1a6")
+		)
+		(instances
+			(project "2_LED_WIWO_Compact_Panel"
+				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -17285,72 +18459,6 @@
 			(project "2_LED_WIWO_Compact_Panel"
 				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff327adb-99e3-4f61-88f4-b769e2ad2172")
-		(property "Reference" "#PWR0134"
-			(at 173.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 173.99 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1740bbb8-ce32-438b-9c7b-1f0c78aeba18")
-		)
-		(instances
-			(project ""
-				(path "/bf8c762a-8cbe-477c-94c3-7e8f7fc6721e"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
